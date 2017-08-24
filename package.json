@@ -1,0 +1,29 @@
+{
+	"name": "<%= moduleName %>",
+	"version": "0.0.0",
+	"description": "",
+	"license": "MIT",
+	"repository": "qiufeihai/<%= moduleName %>",
+	"author": {
+		"name": "qiufeihai",
+		"email": "308350718@qq.com",
+		"url": "feihai.me"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
+}
